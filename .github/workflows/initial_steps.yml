@@ -21,9 +21,5 @@ jobs:
       - name: run tests
         run: make test # name и run относятся к одной задаче, поэтому дефис ставится только перед name
       # выводит строку Hello from Hexlet!
-      - name: Checkout
-        id: checkout
-        uses: actions/checkout@v4
-
       - name: Print Hello from Hexlet
         uses: hexlet-components/hello-from-hexlet-action@release
